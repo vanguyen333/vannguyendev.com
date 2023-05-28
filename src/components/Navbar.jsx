@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo1, menu, close } from "../assets";
+
 // import v from "../assets";
 
 const Navbar = () => {
@@ -20,6 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <img src={logo1} alt="logo" className="w-9 h-9 object-contain" />
         </Link>
       </div>
